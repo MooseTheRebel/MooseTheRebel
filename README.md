@@ -14,3 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<!-- CONTRIBUTIONS:START -->
+## 🌟 Recent Contributions
+
+- **[owner/repo](https://github.com/owner/repo)** — Fixed a race condition in the connection pool ([details](https://github.com/owner/repo/pull/123)) · 2026-07-15 · `bugfix`
+- **[owner/another-repo](https://github.com/owner/another-repo)** — Added support for configurable retry backoff ([details](https://github.com/owner/another-repo/pull/45)) · 2026-06-02 · `feature`
+<!-- CONTRIBUTIONS:END -->

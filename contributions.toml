@@ -1,0 +1,18 @@
+# Curated list of open-source contributions to highlight on the profile README.
+# Add entries here; scripts/update_readme.py regenerates the README section from this file.
+
+[[contribution]]
+project = "owner/repo"
+url = "https://github.com/owner/repo"
+link = "https://github.com/owner/repo/pull/123"
+description = "Fixed a race condition in the connection pool"
+tags = ["bugfix"]
+date = "2026-07-15"
+
+[[contribution]]
+project = "owner/another-repo"
+url = "https://github.com/owner/another-repo"
+link = "https://github.com/owner/another-repo/pull/45"
+description = "Added support for configurable retry backoff"
+tags = ["feature"]
+date = "2026-06-02"

@@ -1,0 +1,36 @@
+name: Update contributions in README
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  push:
+    paths:
+      - contributions.toml
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Update README from contributions.toml
+        run: uv run scripts/update_readme.py
+
+      - name: Commit changes if any
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README.md"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update recent contributions in README"
+          git push
