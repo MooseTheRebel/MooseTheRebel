@@ -11,20 +11,50 @@ README_PATH = REPO_ROOT / "README.md"
 START_MARKER = "<!-- CONTRIBUTIONS:START -->"
 END_MARKER = "<!-- CONTRIBUTIONS:END -->"
 
+CATEGORY_EMOJI = {
+    "Rust": "🦀",
+    "Python": "🐍",
+    "TypeScript": "🟦",
+    "JavaScript": "💛",
+    "Go": "🐹",
+    "CI": "⚙️",
+    "Docker": "🐳",
+}
+DEFAULT_EMOJI = "✨"
+
+
+def category_emoji(category: str) -> str:
+    return CATEGORY_EMOJI.get(category, DEFAULT_EMOJI)
+
 
 def render_entry(entry: dict) -> str:
-    tags = " ".join(f"`{tag}`" for tag in entry.get("tags", []))
     line = f"- **[{entry['project']}]({entry['url']})** — {entry['description']}"
     line += f" ([details]({entry['link']}))"
     line += f" · {entry['date']}"
-    if tags:
-        line += f" · {tags}"
     return line
 
 
 def render_section(entries: list[dict]) -> str:
     entries_sorted = sorted(entries, key=lambda e: e["date"], reverse=True)
-    body = "\n".join(render_entry(e) for e in entries_sorted)
+
+    categories: dict[str, list[dict]] = {}
+    for entry in entries_sorted:
+        categories.setdefault(entry["category"], []).append(entry)
+
+    # Order categories by their most recent contribution.
+    ordered_categories = sorted(
+        categories,
+        key=lambda cat: categories[cat][0]["date"],
+        reverse=True,
+    )
+
+    groups = []
+    for category in ordered_categories:
+        emoji = category_emoji(category)
+        bullets = "\n".join(render_entry(e) for e in categories[category])
+        groups.append(f"### {emoji} {category}\n\n{bullets}")
+
+    body = "\n\n".join(groups)
     return f"{START_MARKER}\n## 🌟 Recent Contributions\n\n{body}\n{END_MARKER}"
 
 

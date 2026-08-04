@@ -1,18 +1,75 @@
 # Curated list of open-source contributions to highlight on the profile README.
 # Add entries here; scripts/update_readme.py regenerates the README section from this file.
+# category groups entries in the rendered README (e.g. "Rust", "Python", "TypeScript", "CI", "Docker", "Go").
 
 [[contribution]]
-project = "owner/repo"
-url = "https://github.com/owner/repo"
-link = "https://github.com/owner/repo/pull/123"
-description = "Fixed a race condition in the connection pool"
-tags = ["bugfix"]
-date = "2026-07-15"
+project = "thunderbird/thunderbird-accounts"
+url = "https://github.com/thunderbird/thunderbird-accounts"
+link = "https://github.com/thunderbird/thunderbird-accounts/pull/666"
+description = "Fixed bootstrap.py failing due to an incorrect config path"
+category = "Python"
+date = "2026-03-25"
 
 [[contribution]]
-project = "owner/another-repo"
-url = "https://github.com/owner/another-repo"
-link = "https://github.com/owner/another-repo/pull/45"
-description = "Added support for configurable retry backoff"
-tags = ["feature"]
-date = "2026-06-02"
+project = "thunderbird/operation-queue-rs"
+url = "https://github.com/thunderbird/operation-queue-rs"
+link = "https://github.com/thunderbird/operation-queue-rs/pull/7"
+description = "Fixed a thread-safety bug in Line"
+category = "Rust"
+date = "2026-04-23"
+
+[[contribution]]
+project = "adamghill/coltrane"
+url = "https://github.com/adamghill/coltrane"
+link = "https://github.com/adamghill/coltrane/pull/80"
+description = "Passed the class instead of the instance"
+category = "Python"
+date = "2026-05-03"
+
+[[contribution]]
+project = "adamghill/coltrane"
+url = "https://github.com/adamghill/coltrane"
+link = "https://github.com/adamghill/coltrane/pull/82"
+description = "Updated ruff config and expected mistune output"
+category = "Python"
+date = "2026-05-06"
+
+[[contribution]]
+project = "canonical/dqlite"
+url = "https://github.com/canonical/dqlite"
+link = "https://github.com/canonical/dqlite/pull/896"
+description = "Configured and automated spell-checking in CI"
+category = "CI"
+date = "2026-06-19"
+
+[[contribution]]
+project = "mozilla-ai/otari"
+url = "https://github.com/mozilla-ai/otari"
+link = "https://github.com/mozilla-ai/otari/pull/245"
+description = "Enforced PERF (perflint) rules"
+category = "Python"
+date = "2026-07-08"
+
+[[contribution]]
+project = "mozilla-services/autopush-rs"
+url = "https://github.com/mozilla-services/autopush-rs"
+link = "https://github.com/mozilla-services/autopush-rs/pull/1194"
+description = "Removed unused encryption_key/enckey support"
+category = "Rust"
+date = "2026-07-16"
+
+[[contribution]]
+project = "mozilla-services/autopush-rs"
+url = "https://github.com/mozilla-services/autopush-rs"
+link = "https://github.com/mozilla-services/autopush-rs/pull/1200"
+description = "Removed db::models::NotificationHeaders"
+category = "Rust"
+date = "2026-07-17"
+
+[[contribution]]
+project = "thunderbird/appointment"
+url = "https://github.com/thunderbird/appointment"
+link = "https://github.com/thunderbird/appointment/pull/1746"
+description = "Migrated frontend and e2e tests from npm to pnpm"
+category = "TypeScript"
+date = "2026-07-30"
