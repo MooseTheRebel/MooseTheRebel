@@ -1,4 +1,10 @@
-## Hi there, I'm MooseTheRebel 👋
+## Hi there, I'm MooseTheRebel 👋🫎
+
+**Q:** _Why MooseTheRebel?_
+
+**A:** I heard [Mark Surman](https://en.wikipedia.org/wiki/Mark_Surman) discussing [Mozilla's Rebel Alliance](https://report.mozilla.community/) on the _Intelligent Machines_ podcast and was motivated by his message. While the conversation ([episode 855](https://twit.tv/shows/intelligent-machines/episodes/855)) covered several topics, my takeaway was that I should contribute more to open source.
+
+🌌🪐 Plus, I like Star Wars. 🤓
 
 <!--
 **MooseTheRebel/MooseTheRebel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
