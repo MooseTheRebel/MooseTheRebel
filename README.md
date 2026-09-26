@@ -25,10 +25,6 @@ Here are some ideas to get you started:
 <!-- CONTRIBUTIONS:START -->
 ## 🌟 Recent Contributions
 
-### 🟦 TypeScript
-
-- **[thunderbird/appointment](https://github.com/thunderbird/appointment)** — Migrated frontend and e2e tests from npm to pnpm ([details](https://github.com/thunderbird/appointment/pull/1746)) · 2026-07-30
-
 ### 🦀 Rust
 
 - **[mozilla-services/autopush-rs](https://github.com/mozilla-services/autopush-rs)** — Removed db::models::NotificationHeaders ([details](https://github.com/mozilla-services/autopush-rs/pull/1200)) · 2026-07-17
@@ -37,10 +33,16 @@ Here are some ideas to get you started:
 
 ### 🐍 Python
 
+- **[thunderbird/thunderbird-accounts](https://github.com/thunderbird/thunderbird-accounts)** — Updated quota lookup to handle missing accounts ([details](https://github.com/thunderbird/thunderbird-accounts/pull/1301)) · 2026-09-25
+- **[thunderbird/appointment](https://github.com/thunderbird/appointment)** — Fixed a crash parsing fractional-second timestamps in free/busy ([details](https://github.com/thunderbird/appointment/pull/1793)) · 2026-08-27
 - **[mozilla-ai/otari](https://github.com/mozilla-ai/otari)** — Enforced PERF (perflint) rules ([details](https://github.com/mozilla-ai/otari/pull/245)) · 2026-07-08
 - **[adamghill/coltrane](https://github.com/adamghill/coltrane)** — Updated ruff config and expected mistune output ([details](https://github.com/adamghill/coltrane/pull/82)) · 2026-05-06
 - **[adamghill/coltrane](https://github.com/adamghill/coltrane)** — Passed the class instead of the instance ([details](https://github.com/adamghill/coltrane/pull/80)) · 2026-05-03
 - **[thunderbird/thunderbird-accounts](https://github.com/thunderbird/thunderbird-accounts)** — Fixed bootstrap.py failing due to an incorrect config path ([details](https://github.com/thunderbird/thunderbird-accounts/pull/666)) · 2026-03-25
+
+### 🟦 TypeScript
+
+- **[thunderbird/appointment](https://github.com/thunderbird/appointment)** — Migrated frontend and e2e tests from npm to pnpm ([details](https://github.com/thunderbird/appointment/pull/1746)) · 2026-07-30
 
 ### ⚙️ CI
 
