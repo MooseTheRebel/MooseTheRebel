@@ -1,6 +1,10 @@
-# Curated list of open-source contributions to highlight on the profile README.
-# Add entries here; scripts/update_readme.py regenerates the README section from this file.
-# category groups entries in the rendered README (e.g. "Rust", "Python", "TypeScript", "CI", "Docker", "Go").
+# A partial list of my open-source contributions to enumerate some of my 
+# skills, showcase breadth, and provide a mini portfolio.  
+#
+# PS: scripts/update_readme.py regenerates the README from this file.
+#
+# PPS: The Java and C++ that I wrote in High School and Undergrad was 
+# terrible, you don't want to see that :-)  
 
 [[contribution]]
 project = "thunderbird/thunderbird-accounts"
@@ -73,3 +77,19 @@ link = "https://github.com/thunderbird/appointment/pull/1746"
 description = "Migrated frontend and e2e tests from npm to pnpm"
 category = "TypeScript"
 date = "2026-07-30"
+
+[[contribution]]
+project = "thunderbird/appointment"
+url = "https://github.com/thunderbird/appointment"
+link = "https://github.com/thunderbird/appointment/pull/1793"
+description = "Fixed a crash parsing fractional-second timestamps in free/busy"
+category = "Python"
+date = "2026-08-27"
+
+[[contribution]]
+project = "thunderbird/thunderbird-accounts"
+url = "https://github.com/thunderbird/thunderbird-accounts"
+link = "https://github.com/thunderbird/thunderbird-accounts/pull/1301"
+description = "Updated quota lookup to handle missing accounts"
+category = "Python"
+date = "2026-09-25"

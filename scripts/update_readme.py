@@ -41,11 +41,13 @@ def render_section(entries: list[dict]) -> str:
     for entry in entries_sorted:
         categories.setdefault(entry["category"], []).append(entry)
 
-    # Order categories by their most recent contribution.
+    # Fixed category order (matches CATEGORY_EMOJI), so the section order
+    # doesn't shift as new entries are added. Unlisted categories are
+    # appended alphabetically at the end.
+    category_rank = {cat: i for i, cat in enumerate(CATEGORY_EMOJI)}
     ordered_categories = sorted(
         categories,
-        key=lambda cat: categories[cat][0]["date"],
-        reverse=True,
+        key=lambda cat: (category_rank.get(cat, len(category_rank)), cat),
     )
 
     groups = []
