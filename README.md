@@ -33,6 +33,8 @@ Here are some ideas to get you started:
 
 ### 🐍 Python
 
+- **[thunderbird/thunderbird-accounts](https://github.com/thunderbird/thunderbird-accounts)** — Collaborated on cleaning up Stalwart and Cloudflare resources on account deletion ([details](https://github.com/thunderbird/thunderbird-accounts/pull/1377)) · 2026-10-08
+- **[thunderbird/thunderbird-accounts](https://github.com/thunderbird/thunderbird-accounts)** — Scoped legacy DKIM deletion to the exact domain ([details](https://github.com/thunderbird/thunderbird-accounts/pull/1378)) · 2026-10-07
 - **[thunderbird/thunderbird-accounts](https://github.com/thunderbird/thunderbird-accounts)** — Updated quota lookup to handle missing accounts ([details](https://github.com/thunderbird/thunderbird-accounts/pull/1301)) · 2026-09-25
 - **[thunderbird/appointment](https://github.com/thunderbird/appointment)** — Fixed a crash parsing fractional-second timestamps in free/busy ([details](https://github.com/thunderbird/appointment/pull/1793)) · 2026-08-27
 - **[mozilla-ai/otari](https://github.com/mozilla-ai/otari)** — Enforced PERF (perflint) rules ([details](https://github.com/mozilla-ai/otari/pull/245)) · 2026-07-08

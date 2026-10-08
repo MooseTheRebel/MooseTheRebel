@@ -93,3 +93,19 @@ link = "https://github.com/thunderbird/thunderbird-accounts/pull/1301"
 description = "Updated quota lookup to handle missing accounts"
 category = "Python"
 date = "2026-09-25"
+
+[[contribution]]
+project = "thunderbird/thunderbird-accounts"
+url = "https://github.com/thunderbird/thunderbird-accounts"
+link = "https://github.com/thunderbird/thunderbird-accounts/pull/1378"
+description = "Scoped legacy DKIM deletion to the exact domain"
+category = "Python"
+date = "2026-10-07"
+
+[[contribution]]
+project = "thunderbird/thunderbird-accounts"
+url = "https://github.com/thunderbird/thunderbird-accounts"
+link = "https://github.com/thunderbird/thunderbird-accounts/pull/1377"
+description = "Collaborated on cleaning up Stalwart and Cloudflare resources on account deletion"
+category = "Python"
+date = "2026-10-08"
