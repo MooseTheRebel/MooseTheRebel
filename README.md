@@ -27,6 +27,7 @@ Here are some ideas to get you started:
 
 ### 🦀 Rust
 
+- **[thunderbird/operation-queue-rs](https://github.com/thunderbird/operation-queue-rs)** — Added support for Send operations via a new send feature ([details](https://github.com/thunderbird/operation-queue-rs/pull/10)) · 2026-10-23
 - **[mozilla-services/autopush-rs](https://github.com/mozilla-services/autopush-rs)** — Removed db::models::NotificationHeaders ([details](https://github.com/mozilla-services/autopush-rs/pull/1200)) · 2026-07-17
 - **[mozilla-services/autopush-rs](https://github.com/mozilla-services/autopush-rs)** — Removed unused encryption_key/enckey support ([details](https://github.com/mozilla-services/autopush-rs/pull/1194)) · 2026-07-16
 - **[thunderbird/operation-queue-rs](https://github.com/thunderbird/operation-queue-rs)** — Fixed a thread-safety bug in Line ([details](https://github.com/thunderbird/operation-queue-rs/pull/7)) · 2026-04-23

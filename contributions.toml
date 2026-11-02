@@ -109,3 +109,11 @@ link = "https://github.com/thunderbird/thunderbird-accounts/pull/1377"
 description = "Collaborated on cleaning up Stalwart and Cloudflare resources on account deletion"
 category = "Python"
 date = "2026-10-08"
+
+[[contribution]]
+project = "thunderbird/operation-queue-rs"
+url = "https://github.com/thunderbird/operation-queue-rs"
+link = "https://github.com/thunderbird/operation-queue-rs/pull/10"
+description = "Added support for Send operations via a new send feature"
+category = "Rust"
+date = "2026-10-23"
