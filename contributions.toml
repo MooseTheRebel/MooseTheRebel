@@ -117,3 +117,11 @@ link = "https://github.com/thunderbird/operation-queue-rs/pull/10"
 description = "Added support for Send operations via a new send feature"
 category = "Rust"
 date = "2026-10-23"
+
+[[contribution]]
+project = "thunderbird/operation-queue-rs"
+url = "https://github.com/thunderbird/operation-queue-rs"
+link = "https://github.com/thunderbird/operation-queue-rs/pull/13"
+description = "Added a real multi-thread test for the send feature"
+category = "Rust"
+date = "2026-11-03"
